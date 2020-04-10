@@ -1,6 +1,6 @@
 {
   "name": "tictactoe",
-  "homepage": "https://tuily.github.io/",
+  "homepage": "https://tuily.github.io/tictactoe",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
