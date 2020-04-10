@@ -1,0 +1,25 @@
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+/* Remove top border*/
+.board-row:first-child .square {
+  border-top-width: 0px;
+}
+
+/* Remove left border*/
+.board-row .square:first-child {
+  border-left-width: 0px;
+}
+
+/* Remove right border*/
+.board-row .square:last-child {
+  border-right-width: 0px;
+}
+
+/* Remove bottom border*/
+.board-row:last-child .square {
+  border-bottom-width: 0px;
+}
